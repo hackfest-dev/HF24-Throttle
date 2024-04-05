@@ -1,0 +1,19 @@
+{
+	"name": "Default Linux Universal",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"features": {
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"bradlc.vscode-tailwindcss",
+				"eamodio.gitlens",
+				"ms-toolsai.jupyter",
+				"ms-python.python"
+			]
+		}
+	}
+}
